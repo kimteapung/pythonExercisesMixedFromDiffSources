@@ -1,2 +1,2 @@
-# pythonExercisesWithSk
-Python exercises with sk
+# pythonExercisesMixedFromDiffSources
+Python exercises from internet different resources
