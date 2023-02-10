@@ -22,7 +22,7 @@ def main():
     questions_prompts = [
         "What is two to the third power?\na) 5\nb) 6\nc) 8\nd) 9\n\nYour choice: ",
         "\nEvaluate the expression 5x\u00b3 if x = 4\na) 40\nb) 80\nc) 160\nd) 320\n\nYour choice: ",
-        "\nEvaluate the expression x\u00b3 if x = -4\na) -8\nb) -4\nc) 0\nd) 4\n\nYour choice: "
+        "\nEvaluate the expression x\u00b3 if x = -4\na) -80\nb) -64\nc) 0\nd) 48\n\nYour choice: "
     ]
 
     questions = [
