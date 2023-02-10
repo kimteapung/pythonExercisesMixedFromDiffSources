@@ -5,7 +5,7 @@ Write one line of Python that takes this list a and makes a new list that has on
 import random as r
 
 random_list = sorted(r.sample(range(1, 200), r.randint(5, 15)))
-even_list =sorted([x for x in random_list if x % 2 == 0])
+even_list = sorted([x for x in random_list if x % 2 == 0])
 # Code-block Before the using List Comprehension
 # for i in random_list:
 #     if i%2 == 0:
