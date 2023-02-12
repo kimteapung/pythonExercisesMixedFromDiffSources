@@ -3,6 +3,9 @@ DIFFERENT SOURCES WILL BE WATCHED I HOPE
 (İZLENDİ) Python Training Course for Beginners
 https://youtu.be/rfscVS0vtbw
 
+(İZLENDİ) 5 Mini Python Projects - For Beginners
+https://youtu.be/DLn3jOsNRVE
+
 Introduction to Programming and Computer Science - Full Course
 https://youtu.be/zOjov-2OZ0E
 
@@ -14,9 +17,6 @@ https://youtu.be/Ej_02ICOIgs
 
 Python As Fast as Possible - Learn Python in ~75 Minutes
 https://youtu.be/VchuKL44s6E
-
-5 Mini Python Projects - For Beginners
-https://youtu.be/DLn3jOsNRVE
 
 Python Object Oriented Programming (OOP) - For Beginners
 https://youtu.be/JeznW_7DlB0
