@@ -8,6 +8,24 @@ Yes, I watch the video couple of times but this exercise created not looking the
 from multipleChoiceExercise01.Questions import Questions
 
 
+def run_quiz(questions):
+    """
+    It will ask users to input their answers
+
+    Variables:
+    @score: int - it is the users' score how many correct answers they did
+
+    :param questions: list - it will send to the func by user
+    :return: it will give  the result
+    """
+    score = 0
+    for question in questions:
+        answer = input(question.prompt)
+        if answer == question.answer:
+            score += 1
+    print(f"\nYou did correct {score} out of {str(len(questions))}")
+
+
 def main():
     """
     This the main function will store variables in it
@@ -32,24 +50,6 @@ def main():
     ]
 
     run_quiz(questions)
-
-
-def run_quiz(questions):
-    """
-    It will ask users to input their answers
-
-    Variables:
-    @score: int - it is the users' score how many correct answers they did
-
-    :param questions: list - it will send to the func by user
-    :return: it will give  the result
-    """
-    score = 0
-    for question in questions:
-        answer = input(question.prompt)
-        if answer == question.answer:
-            score += 1
-    print(f"\nYou did correct {score} out of {str(len(questions))}")
 
 
 main()
