@@ -26,28 +26,28 @@ class PrintColored:
     Coloring the printed text in the terminal LINK:https://www.geeksforgeeks.org/print-colors-python-terminal/
     ANSI Escape Sequence is used
 
-    :param text_to_be_colored: str - text to be colored
+    :param color: str - text to be colored
     :return:
     """
 
-    def __init__(self, text_to_be_colored):
-        self.text_to_be_colored = text_to_be_colored
+    def __init__(self, color):
+        self.color = color
 
-    def red(self): print(f"\033[91m{self.text_to_be_colored}\033[00m")
+    def red(self): print(f"\033[91m{self.color}\033[00m")
 
-    def green(self): print(f"\033[92m{self.text_to_be_colored}\033[00m")
+    def green(self): print(f"\033[92m{self.color}\033[00m")
 
-    def yellow(self): print(f"\033[93m{self.text_to_be_colored}\033[00m")
+    def yellow(self): print(f"\033[93m{self.color}\033[00m")
 
-    def light_purple(self): print(f"\033[94m{self.text_to_be_colored}\033[00m")
+    def light_purple(self): print(f"\033[94m{self.color}\033[00m")
 
-    def purple(self): print(f"\033[95m{self.text_to_be_colored}\033[00m")
+    def purple(self): print(f"\033[95m{self.color}\033[00m")
 
-    def cyan(self): print(f"\033[96m{self.text_to_be_colored}\033[00m")
+    def cyan(self): print(f"\033[96m{self.color}\033[00m")
 
-    def light_gray(self): print(f"\033[97m{self.text_to_be_colored}\033[00m")
+    def light_gray(self): print(f"\033[97m{self.color}\033[00m")
 
-    def black(self): print(f"\033[98m{self.text_to_be_colored}\033[00m")
+    def black(self): print(f"\033[98m{self.color}\033[00m")
 
 
 def start_the_guess(top_number):
