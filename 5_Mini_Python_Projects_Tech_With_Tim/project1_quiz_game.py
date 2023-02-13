@@ -53,8 +53,10 @@ def main():
     user_answer = input("Do you want to play math quiz game? (Y/N)\n").lower()
     if user_answer == "y":
         run_the_game()
-    else:
+    elif user_answer == "n":
         quit()
+    else:
+        print("Please state your decision as Y or N...")
 
 
 main()
