@@ -32,14 +32,6 @@ def start_game(game_list):
                         # reset the counter
                         count_the_play = 0
                         print("\n")
-                    # elif user_pick == "s" and computer_pick == "p":
-                    #     print(f"\nYou played the game to win {count_the_play} time(s)")
-                    #     print(f"You: {user_pick} | Comp: {computer_pick}\nYou WIN!")
-                    #     quit()
-                    # elif user_pick == "r" and computer_pick == "s":
-                    #     print(f"\nYou played the game to win {count_the_play} time(s)")
-                    #     print(f"You: {user_pick} | Comp: {computer_pick}\nYou WIN!")
-                    #     quit()
                     else:
                         print(f"You: {user_pick} | Comp: {computer_pick}\nYou LOSE!")
                 else:
